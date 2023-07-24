@@ -1,0 +1,58 @@
+name: whatsapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-401.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  http:
+  intl_translation:
+  internet_connection_checker:
+  cupertino_icons: ^1.0.2
+  get:
+  url_launcher:
+  flutter_screenutil:
+  flutter_svg:
+  in_app_purchase:
+  purchases_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons:
+flutter_icons:
+  image_path: "assets/icons/appIcon.jpg"
+  android: true
+  ios: true
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          style: italic
+
